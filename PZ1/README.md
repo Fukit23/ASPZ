@@ -7,7 +7,7 @@
 
 Для завантаження VMware Workstation Pro можна перейти на офіційний [сайт](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) та завантажити останню версію для совєї операційної системи ~~(якщо нема куди витрачати гроші)~~. Або якщо ви не боїтесь завантажувати піратьскі файли то можете перейти по [ссилці](https://rutracker.net/forum/viewtopic.php?t=6492639) та завантажити торрент файл. Там буде три ехе файли: 
 
-<img width="315" height="88" alt="image" src="https://github.com/user-attachments/assets/ff096f70-ab2c-4313-a0b5-e002f16f640d" />
+<img width="624" height="111" alt="image" src="https://github.com/user-attachments/assets/670044ed-f321-461a-91dc-b14a08b8c7cf" />
 
 Для завантаження самої программи треба відкрити "VMware-workstation..." та виконати процедуру завантаження за інструкцією завантажуючи все що там рекомендовано. Після цього коли ви відкриєте програму вона запросить ключ програми. Для того щоб його отримати треба відкрити "VMKeygen.exe" вибрати версію програми та натиснути згенерувати, після цього ключ скопіювати та вставити у віконце запросу ключа.
 
@@ -18,15 +18,15 @@
 
 Після запуску треба обрати: File > New Virtual Machine
 
-<img width="278" height="52" alt="image" src="https://github.com/user-attachments/assets/1e49fd76-c13a-494e-ad29-d9455d57db7b" />
+<img width="284" height="246" alt="image" src="https://github.com/user-attachments/assets/894ce2d6-02a2-421e-b391-f099fc28929e" />
 
 В відкритому вікні обрати рекомендовану конфігурацію
 
-<img width="421" height="424" alt="image" src="https://github.com/user-attachments/assets/4be5d365-0352-4272-a782-ba3a7e6d6694" />
+<img width="423" height="422" alt="image" src="https://github.com/user-attachments/assets/eeba7af3-0395-4fa0-8f96-d1c59e1b8bda" />
 
-Далі обрати ico файл для Ubuntu server який ми завантажували раніше
+Далі обрати iso файл для Ubuntu server який ми завантажували раніше
 
-<img width="422" height="421" alt="image" src="https://github.com/user-attachments/assets/39ad6d96-7c3d-45bc-bb97-abb552b6726d" />
+<img width="422" height="348" alt="image" src="https://github.com/user-attachments/assets/127b8081-a0e2-472d-9052-c8038c0f0b6c" />
 
 Після цього обрати місце зберігання та кількість виділеного місця
 
