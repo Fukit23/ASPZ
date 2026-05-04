@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-int a1[1000];
-int a2[1000] = {1};
+int a1[1000] = {1};
 
-void func() {
-    int a3[1000];
-    int a4[1000] = {1};
-    printf("%p %p\n", (void*)a3, (void*)a4);
+void f1() {
+    int l1[1000];
+    int l2[1000] = {1};
 }
 
 int main() {
-    func();
+    f1();
+    printf("Hello\n");
     return 0;
 }
