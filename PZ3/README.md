@@ -22,6 +22,8 @@ ulimit -aH | grep "open files"
 ulimit -n 3000
 ```
 
+<img width="663" height="370" alt="image" src="https://github.com/user-attachments/assets/5aab0620-dd6e-490f-87cb-ce4363fd7f9b" />
+
 > [!NOTE]
 > Примітка: Звичайний користувач може лише знижувати жорсткий ліміт. Для його підвищення потрібні права root.
 
@@ -34,6 +36,8 @@ sudo docker run --privileged -it ubuntu bash
 apt-get update && apt-get install -y linux-tools-common linux-tools-generic
 perf --version
 ```
+<img width="515" height="424" alt="image" src="https://github.com/user-attachments/assets/954cfc00-b4f1-4e53-8515-cc95024e5275" />
+
 
 ### Завдання 3.3:
 У програмі, що імітує кидання кубика, перед початком запису у файл системним викликом setrlimit встановлено обмеження на розмір генерованого файлу (20 байт). Щоб програма не "падала" з системною помилкою при перевищенні ліміту, використано функцію signal() для перехоплення сигналу SIGXFSZ та виводу повідомлення про штатне завершення.
