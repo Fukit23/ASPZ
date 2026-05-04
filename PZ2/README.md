@@ -186,7 +186,11 @@ sudo pstack <PID>
 sudo gdb -p <PID>
 ```
 
-5. Після завершення аналізу вбийте процес:
+5. Приклад виконання:
+
+<img width="816" height="307" alt="image" src="https://github.com/user-attachments/assets/3c180179-d188-4a81-b373-7b9c5fed1f8d" />
+
+6. Після завершення аналізу вбийте процес:
 
 ```bash
 kill -9 <PID>
