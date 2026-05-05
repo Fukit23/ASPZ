@@ -22,6 +22,8 @@ ulimit -aH | grep "open files"
 ulimit -n 3000
 ```
 
+<img width="663" height="370" alt="image" src="https://github.com/user-attachments/assets/5aab0620-dd6e-490f-87cb-ce4363fd7f9b" />
+
 > [!NOTE]
 > Примітка: Звичайний користувач може лише знижувати жорсткий ліміт. Для його підвищення потрібні права root.
 
@@ -34,6 +36,8 @@ sudo docker run --privileged -it ubuntu bash
 apt-get update && apt-get install -y linux-tools-common linux-tools-generic
 perf --version
 ```
+<img width="515" height="424" alt="image" src="https://github.com/user-attachments/assets/954cfc00-b4f1-4e53-8515-cc95024e5275" />
+
 
 ### Завдання 3.3:
 У програмі, що імітує кидання кубика, перед початком запису у файл системним викликом setrlimit встановлено обмеження на розмір генерованого файлу (20 байт). Щоб програма не "падала" з системною помилкою при перевищенні ліміту, використано функцію signal() для перехоплення сигналу SIGXFSZ та виводу повідомлення про штатне завершення.
@@ -67,6 +71,7 @@ gcc 3,5.c -o 3,5
 gcc 3,6.c -o 3,6
 ./3,6
 ```
+<img width="488" height="500" alt="image" src="https://github.com/user-attachments/assets/ead3c981-a4db-4d52-80dc-579c729f107d" />
 
 ### Завдання 3.7: 
 Спочатку програма робить системний виклик system("ulimit -a") для виводу всіх активних лімітів процесу. Після цього програма через setrlimit штучно знижує ліміт відкритих файлових дескрипторів (RLIMIT_NOFILE) до 10 і в циклі намагається відкрити 20 системних файлів /dev/null. Як тільки ліміт досягається, fopen повертає помилку, що доводить роботу обмеження.
@@ -75,3 +80,5 @@ gcc 3,6.c -o 3,6
 gcc 3,7_var16.c -o 3,7_var16
 ./3,7_var16
 ```
+<img width="549" height="274" alt="image" src="https://github.com/user-attachments/assets/dac5f72a-d6d8-4c98-9802-85c9dfe3cb8a" />
+
